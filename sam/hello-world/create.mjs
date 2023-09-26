@@ -1,7 +1,7 @@
 import { DynamoDBClient } from 'aws-sdk';
 import { DynamoDBDocumentClient, PutCommand } from '@aws-sdk/lib-dynamodb';
 
-// Initialize DynamoDB client and document client
+// Initialize DynamoDB client and document client fsdaf
 const dynamoDBClient = new DynamoDBClient({
     endpoint: 'https://8000-piyuxx-polices-76urbtswtpr.ws-us104.gitpod.io'
 });
